@@ -1,0 +1,62 @@
+# Berlin
+
+> Geotechnical engineering company in Germany, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Aktive Passive Verankerungsbemessung](https://berlin.geotechnik.biz/aktive-passive-verankerungsbemessung/)
+- [Analyse Seismischen Verstarkung](https://berlin.geotechnik.biz/analyse-seismischen-verstarkung/)
+- [Analyse Ungesattigter Boden](https://berlin.geotechnik.biz/analyse-ungesattigter-boden/)
+- [Atterberg Grenzen](https://berlin.geotechnik.biz/atterberg-grenzen/)
+- [Bemessung Flexibler Fahrbahnen](https://berlin.geotechnik.biz/bemessung-flexibler-fahrbahnen/)
+- [Bemessung Geozellen](https://berlin.geotechnik.biz/bemessung-geozellen/)
+- [Bemessung Rammpfahlen](https://berlin.geotechnik.biz/bemessung-rammpfahlen/)
+- [Bemessung Rutteldruckverdichtung](https://berlin.geotechnik.biz/bemessung-rutteldruckverdichtung/)
+- [Bemessung Starrer Fahrbahnen](https://berlin.geotechnik.biz/bemessung-starrer-fahrbahnen/)
+- [Bemessung Vorbelastung Auflast](https://berlin.geotechnik.biz/bemessung-vorbelastung-auflast/)
+- [Berechnung Des Sicherheitsfaktors](https://berlin.geotechnik.biz/berechnung-des-sicherheitsfaktors/)
+- [Bewertung Setzungsempfindlichen Boden](https://berlin.geotechnik.biz/bewertung-setzungsempfindlichen-boden/)
+- [Bodenerosionsanalyse](https://berlin.geotechnik.biz/bodenerosionsanalyse/)
+- [Bodenklassifikation](https://berlin.geotechnik.biz/bodenklassifikation/)
+- [Bodenmechanische Untersuchung](https://berlin.geotechnik.biz/bodenmechanische-untersuchung/)
+- [Bodenverbesserung](https://berlin.geotechnik.biz/bodenverbesserung/)
+- [Boschungsbruchanalyse](https://berlin.geotechnik.biz/boschungsbruchanalyse/)
+- [Boschungsstabilitatsanalyse](https://berlin.geotechnik.biz/boschungsstabilitatsanalyse/)
+- [Cbr Studie Fur Straßenentwurf](https://berlin.geotechnik.biz/cbr-studie-fur-straßenentwurf/)
+- [Charakterisierung Residualboden](https://berlin.geotechnik.biz/charakterisierung-residualboden/)
+- [Cone Penetration Test](https://berlin.geotechnik.biz/cone-penetration-test/)
+- [Direkter Scherversuch](https://berlin.geotechnik.biz/direkter-scherversuch/)
+- [Elektrische Widerstandsmessung Ves](https://berlin.geotechnik.biz/elektrische-widerstandsmessung-ves/)
+- [Erdbebenisolationsbemessung](https://berlin.geotechnik.biz/erdbebenisolationsbemessung/)
+- [Erdbebensichere Grundungsbemessung](https://berlin.geotechnik.biz/erdbebensichere-grundungsbemessung/)
+- [Erkundung](https://berlin.geotechnik.biz/erkundung/)
+- [Fahrbahnbau Untergrundbemessung](https://berlin.geotechnik.biz/fahrbahnbau-untergrundbemessung/)
+- [Felddurchlassigkeitsversuch](https://berlin.geotechnik.biz/felddurchlassigkeitsversuch/)
+- [Flachdilatometer Versuch](https://berlin.geotechnik.biz/flachdilatometer-versuch/)
+- [Flachgrundungsbemessung](https://berlin.geotechnik.biz/flachgrundungsbemessung/)
+- [Fundamente](https://berlin.geotechnik.biz/fundamente/)
+- [Geogitter Spezifikation](https://berlin.geotechnik.biz/geogitter-spezifikation/)
+- [Geomembran Spezifikation](https://berlin.geotechnik.biz/geomembran-spezifikation/)
+- [Geophysik](https://berlin.geotechnik.biz/geophysik/)
+- [Geotechnik Deponien](https://berlin.geotechnik.biz/geotechnik-deponien/)
+- [Geotechnische Analyse Fur Tunnel](https://berlin.geotechnik.biz/geotechnische-analyse-fur-tunnel/)
+- [Geotechnische Bemessung Tiefer Baugruben](https://berlin.geotechnik.biz/geotechnische-bemessung-tiefer-baugruben/)
+- [Geotechnische Entwasserungsbemessung](https://berlin.geotechnik.biz/geotechnische-entwasserungsbemessung/)
+- [Geotechnische Instrumentierung](https://berlin.geotechnik.biz/geotechnische-instrumentierung/)
+- [Geotechnische Straßenentwasserung](https://berlin.geotechnik.biz/geotechnische-straßenentwasserung/)
+- [Geotextil Spezifikation](https://berlin.geotechnik.biz/geotextil-spezifikation/)
+- [Ground Penetrating Radar](https://berlin.geotechnik.biz/ground-penetrating-radar/)
+- [Hange Amp Wande](https://berlin.geotechnik.biz/hange-amp-wande/)
+- [In Situ Prufungen](https://berlin.geotechnik.biz/in-situ-prufungen/)
+- [Injektionsbemessung](https://berlin.geotechnik.biz/injektionsbemessung/)
+- [Jet Grouting Bemessung](https://berlin.geotechnik.biz/jet-grouting-bemessung/)
+- [Labor](https://berlin.geotechnik.biz/labor/)
+- [Labor Cbr Versuch](https://berlin.geotechnik.biz/labor-cbr-versuch/)
+- [Labor Durchlassigkeitsversuch](https://berlin.geotechnik.biz/labor-durchlassigkeitsversuch/)
+- [Mechanisch Stabilisierter Erdkorper](https://berlin.geotechnik.biz/mechanisch-stabilisierter-erdkorper/)
+
+## Contact
+- Website: https://berlin.geotechnik.biz/
+
+## About
+This page provides information about geotechnical engineering services available in Germany.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.

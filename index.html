@@ -119,6 +119,48 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
 </head><body>
 <div class="topbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'.\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -236,7 +278,7 @@ header.hero, .hero { position: relative !important; }
 </div>
 </div>
 </section><section class="block"><div class="container"><h2>Warum uns wählen</h2><p>Unsere Qualifikation für Projekte in Berlin gründet sich auf langjährige regionale Erfahrung und ein tiefes Verständnis der lokalen Geologie. Wir verfügen über ein kalibriertes Labor für bodenmechanische Versuche und setzen moderne Feldgeräte für Drucksondierungen und Rammsondierungen ein. Unsere Gutachten sind stets normenkonform und werden von den Berliner Prfingenieuren anerkannt. Durch die enge Zusammenarbeit mit örtlichen Bohrfirmen, Vermessungsbüros und Umweltlaboren gewährleisten wir eine effiziente Projektabwicklung. Zudem sind wir mit den spezifischen Anforderungen der Berliner Bauverwaltung vertraut und unterstützen bei der Einholung von Baugenehmigungen. Dies ermöglicht uns, auch komplexe innerstädtische Bauvorhaben termingerecht und kostenoptimiert zu begleiten.</p></div></section>
-<section class="block"><div class="container"><h2>Häufige Fragen</h2><details><summary>Welche Baugrundrisiken sind typisch für Berlin?</summary><p>In Berlin treten häufig inhomogene Schichtungen aus Geschiebemergel, Sanden und organischen Böden auf, die zu unterschiedlichen Setzungen führen können. Der hohe Grundwasserstand in Spree- und Havelnähe erfordert oft eine aufwendige Wasserhaltung. Zudem sind Auffüllungen und Kampfmittelreste aus dem Zweiten Weltkrieg verbreitet, die vor Baubeginn sondiert werden müssen. Auch Altlasten aus industrieller Nutzung können die Gründungsplanung beeinflussen.</p></details><details><summary>Wie läuft eine Baugrunderkundung in Berlin ab?</summary><p>Zunächst führen wir eine Vorerkundung durch, bei der wir vorhandene Daten und Karten auswerten. Anschließend werden nach DIN EN ISO 22475 Bohrungen abgeteuft, Bodenproben entnommen und vor Ort Rammsondierungen durchgeführt. Die Proben werden in unserem Labor auf Korngrößenverteilung, Wassergehalt und Scherfestigkeit geprüft. Aus den Ergebnissen erstellen wir ein Bodengutachten mit Gründungsempfehlungen, das den Berliner Genehmigungsbehörden vorgelegt wird.</p></details><details><summary>Welche Normen gelten für Gründungen in Berlin?</summary><p>In Deutschland ist der Eurocode 7 (DIN EN 1997) mit dem nationalen Anhang DIN 1054 maßgebend. Für die Erkundung gelten DIN EN ISO 22475 und DIN 4020. Die Bemessung von Flach- und Tiefgründungen erfolgt nach DIN EN 1997-1 sowie den ergänzenden Normen DIN 4017 (Grundbruch) und DIN 4019 (Setzungen). Bei Erdbebenlasten kommt DIN EN 1998-1 zur Anwendung. Zusätzlich sind die Berliner Bauordnung und die Verwaltungsvorschrift zur Kampfmittelräumung zu beachten.</p></details><details><summary>Wie lange dauert ein Bodengutachten für ein typisches Berliner Bauprojekt?</summary><p>Die Dauer hängt von der Projektgröße und der Komplexität des Baugrunds ab. Für ein Einfamilienhaus mit leichter Bebauung können Feldarbeiten und Laborversuche etwa zwei bis drei Wochen in Anspruch nehmen. Bei größeren Projekten wie Wohnanlagen oder Gewerbebauten mit mehreren Bohrungen und umfangreichen Laborprüfungen ist mit vier bis sechs Wochen zu rechnen. Die Erstellung des abschließenden Gutachtens benötigt meist eine weitere Woche.</p></details></div></section>
+<section class="block"><div class="container"><h2>Häufige Fragen</h2><details><summary>Welche Baugrundrisiken sind typisch für Berlin?</summary><p>In Berlin treten häufig inhomogene Schichtungen aus Geschiebemergel, Sanden und organischen Böden auf, die zu unterschiedlichen Setzungen führen können. Der hohe Grundwasserstand in Spree- und Havelnähe erfordert oft eine aufwendige Wasserhaltung. Zudem sind Auffüllungen und Kampfmittelreste aus dem Zweiten Weltkrieg verbreitet, die vor Baubeginn sondiert werden müssen. Auch Altlasten aus industrieller Nutzung können die Gründungsplanung beeinflussen.</p></details><details><summary>Wie läuft eine Baugrunderkundung in Berlin ab?</summary><p>Zunächst führen wir eine Vorerkundung durch, bei der wir vorhandene Daten und Karten auswerten. Anschließend werden nach DIN EN ISO 22475 Bohrungen abgeteuft, Bodenproben entnommen und vor Ort Rammsondierungen durchgeführt. Die Proben werden in unserem Labor auf Korngrößenverteilung, Wassergehalt und Scherfestigkeit geprüft. Aus den Ergebnissen erstellen wir ein Bodengutachten mit Gründungsempfehlungen, das den Berliner Genehmigungsbehörden vorgelegt wird.</p></details><details><summary>Welche Normen gelten für Gründungen in Berlin?</summary><p>In Deutschland ist der Eurocode 7 (DIN EN 1997) mit dem nationalen Anhang DIN 1054 maßgebend. Für die <a href="/erkundung/">Erkundung</a> gelten DIN EN ISO 22475 und DIN 4020. Die Bemessung von Flach- und Tiefgründungen erfolgt nach DIN EN 1997-1 sowie den ergänzenden Normen DIN 4017 (Grundbruch) und DIN 4019 (Setzungen). Bei Erdbebenlasten kommt DIN EN 1998-1 zur Anwendung. Zusätzlich sind die Berliner Bauordnung und die Verwaltungsvorschrift zur Kampfmittelräumung zu beachten.</p></details><details><summary>Wie lange dauert ein Bodengutachten für ein typisches Berliner Bauprojekt?</summary><p>Die Dauer hängt von der Projektgröße und der Komplexität des Baugrunds ab. Für ein Einfamilienhaus mit leichter Bebauung können Feldarbeiten und Laborversuche etwa zwei bis drei Wochen in Anspruch nehmen. Bei größeren Projekten wie Wohnanlagen oder Gewerbebauten mit mehreren Bohrungen und umfangreichen Laborprüfungen ist mit vier bis sechs Wochen zu rechnen. Die Erstellung des abschließenden Gutachtens benötigt meist eine weitere Woche.</p></details></div></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">
 <h2 style="margin-bottom:.8rem;font-weight:700">Standort und Servicegebiet</h2>

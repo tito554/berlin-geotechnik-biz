@@ -116,6 +116,48 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
 </head><body>
 
 <div class="topbar">
@@ -182,7 +224,7 @@ header.hero, .hero { position: relative !important; }
 
 <section class="block"><div class="container"><h2>Häufige Fragen</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<details><summary>Welche Pfahltypen sind in Berlin üblich?</summary><p>Am häufigsten werden Bohrpfähle (Durchmesser 0,6–1,2 m) und Rammpfähle aus Beton oder Stahl eingesetzt. Mikropfähle kommen bei beengten Platzverhältnissen oder nachträglichen Gründungen zum Einsatz. Die Wahl hängt von der Baugrundschichtung und der Lastabtragung ab.</p></details><details><summary>Warum ist die Pfahlgründungsbemessung in Berlin anspruchsvoll?</summary><p>Der Berliner Baugrund besteht aus wechselnden Sanden, Geschiebemergel und Torf. Der Grundwasserspiegel liegt hoch, und die Lagerungsdichte der Sande schwankt stark. Ohne ortsspezifische Sondierungen und Erfahrungswerte aus der Region sind verlässliche Pfahllasten nicht ableitbar.</p></details><details><summary>Welche Normen gelten für die Pfahlbemessung in Deutschland?</summary><p>Maßgeblich sind DIN 1054:2021, der Nationale Anhang zu EC 7 (EN 1997-1/NA) und die EA-Pfähle (2012). Bei Probebelastungen kommt DIN EN ISO 22477-1 zur Anwendung. Alle Nachweise müssen mit den Teilsicherheitsbeiwerten nach EC 7-NA geführt werden.</p></details><details><summary>Wie viel kostet eine Pfahlgründungsbemessung in Berlin?</summary><p>Der Aufwand für Erkundung und Bemessung liegt zwischen €1.540 und €5.920, abhängig von Anzahl der Aufschlüsse, Pfahltyp und Umfang der Probebelastung. Bei größeren Bauvorhaben mit mehreren Pfahlgruppen steigt der Aufwand entsprechend.</p></details></div></section>
+<details><summary>Welche Pfahltypen sind in Berlin üblich?</summary><p>Am häufigsten werden Bohrpfähle (Durchmesser 0,6–1,2 m) und Rammpfähle aus Beton oder Stahl eingesetzt. Mikropfähle kommen bei beengten Platzverhältnissen oder nachträglichen Gründungen zum Einsatz. Die Wahl hängt von der Baugrundschichtung und der Lastabtragung ab.</p></details><details><summary>Warum ist die Pfahlgründungsbemessung in Berlin anspruchsvoll?</summary><p>Der Berliner Baugrund besteht aus wechselnden Sanden, Geschiebemergel und Torf. Der Grundwasserspiegel liegt hoch, und die Lagerungsdichte der Sande schwankt stark. Ohne ortsspezifische Sondierungen und Erfahrungswerte aus der Region sind verlässliche Pfahllasten nicht ableitbar.</p></details><details><summary>Welche Normen gelten für die Pfahlbemessung in Deutschland?</summary><p>Maßgeblich sind DIN 1054:2021, der Nationale Anhang zu EC 7 (EN 1997-1/NA) und die EA-Pfähle (2012). Bei Probebelastungen kommt DIN EN ISO 22477-1 zur Anwendung. Alle Nachweise müssen mit den Teilsicherheitsbeiwerten nach EC 7-NA geführt werden.</p></details><details><summary>Wie viel kostet eine Pfahlgründungsbemessung in Berlin?</summary><p>Der Aufwand für <a href="/erkundung/">Erkundung</a> und Bemessung liegt zwischen €1.540 und €5.920, abhängig von Anzahl der Aufschlüsse, Pfahltyp und Umfang der Probebelastung. Bei größeren Bauvorhaben mit mehreren Pfahlgruppen steigt der Aufwand entsprechend.</p></details></div></section>
 
 
 

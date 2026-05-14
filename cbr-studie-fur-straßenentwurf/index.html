@@ -123,6 +123,48 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
 </head><body>
 <div class="topbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -134,7 +176,7 @@ header.hero, .hero { position: relative !important; }
 </div>
 </div>
 <header class="hero"><div class="hero-inner">
-<div class="crumb-eef4-eef4"><a href="/">Home</a> › <span>Straßenbau</span> › <span>Estudio CBR para diseño vial</span></div>
+<div class="crumb-eef4-eef4"><a href="/">Home</a> › <span>Straßenbau</span> › <span>CBR-Studie für Straßenentwurf</span></div>
 <h1>CBR-Studie für Straßenentwurf in Berlin</h1>
 <p class="tagline">Evidenzbasiertes Design. Verlässliche Lieferung.</p>
 <a class="hero-cta" href="#main-content">MEHR ERFAHREN</a>
@@ -165,7 +207,7 @@ header.hero, .hero { position: relative !important; }
 <a class="card-viewall" href="#taludes">ALLE ANZEIGEN HÄNGE &amp; WÄNDE ›</a>
 </div>
 </div></div></div></section>
-<section class="block"><div class="container"><h2>Methodik und Umfang</h2><div>Berlin erstreckt sich über rund 890 Quadratkilometer, wobei große Teile auf eiszeitlichen Ablagerungen liegen. Die CBR-Studie für Straßenentwurf wird nach RStO 12 durchgeführt und umfasst sowohl die Proctorverdichtung als auch die direkte CBR-Messung im Labor. Wir arbeiten nach DIN 18134 und DIN 18134, um vergleichbare Werte zu erhalten. Typische Parameter sind der CBR-Wert bei 95% und 100% Proctordichte sowie der Quellwert nach 96-stündiger Wasserlagerung. Ergänzend zur CBR-Studie für Straßenentwurf setzen wir auf Tragfähigkeitsmessungen mit der Plattendruckversuch zur direkten Kalibrierung im Feld. Folgende Parameter werden standardmäßig bestimmt:  <ul><li>CBR-Wert bei 2,5 mm und 5,0 mm Eindringtiefe</li><li>Quellmaß nach DIN 18132</li><li>Trockendichte und Wassergehalt nach Proctor</li><li>Korngrößenverteilung mit Sieblinie</li></ul>  Die Ergebnisse fließen direkt in die Dimensionierung der Frostschutzschicht und des Asphaltaufbaus ein. Eine sorgfältige Bodenansprache vor Ort ist die Voraussetzung für repräsentative Proben.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technische Referenz — Berlin</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Lokale Besonderheiten</h2><p>Die RStO 12 fordert für die Frostsicherheitsklasse F2 einen CBR-Wert von mindestens 5% bei 100% Proctordichte. In Berlin mit seinen wechselnden Grundwasserständen und organischen Einschlüssen wird dieser Wert oft nicht erreicht. Wird die CBR-Studie für Straßenentwurf vernachlässigt, riskiert man Frosteinwirkungen mit Hebungen und anschließenden Rissen im Belag. Unser Labor führt die Prüfung nach DIN 18134 durch und dokumentiert die Ergebnisse für die statische Nachweisführung. Ergänzend empfehlen wir bei organischen Böden eine Stabilisierung mit Kalk oder Zement vor dem Einbau der Frostschutzschicht.</p></div></section>
+<section class="block"><div class="container"><h2>Methodik und Umfang</h2><div>Berlin erstreckt sich über rund 890 Quadratkilometer, wobei große Teile auf eiszeitlichen Ablagerungen liegen. Die CBR-Studie für Straßenentwurf wird nach RStO 12 durchgeführt und umfasst sowohl die Proctorverdichtung als auch die direkte CBR-Messung im Labor. Wir arbeiten nach DIN 18134 und DIN 18134, um vergleichbare Werte zu erhalten. Typische Parameter sind der CBR-Wert bei 95% und 100% Proctordichte sowie der Quellwert nach 96-stündiger Wasserlagerung. Ergänzend zur CBR-Studie für Straßenentwurf setzen wir auf Tragfähigkeitsmessungen mit der Plattendruckversuch zur direkten Kalibrierung im Feld. Folgende Parameter werden standardmäßig bestimmt:  <ul><li>CBR-Wert bei 2,5 mm und 5,0 mm Eindringtiefe</li><li>Quellmaß nach DIN 18132</li><li>Trockendichte und Wassergehalt nach Proctor</li><li>Korngrößenverteilung mit Sieblinie</li></ul>  Die Ergebnisse fließen direkt in die Dimensionierung der Frostschutzschicht und des Asphaltaufbaus ein. Eine sorgfältige Bodenansprache vor Ort ist die Voraussetzung für repräsentative Proben.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technische Referenz — Berlin</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Lokale Besonderheiten</h2><p>Die RStO 12 fordert für die Frostsicherheitsklasse F2 einen CBR-Wert von mindestens 5% bei 100% Proctordichte. In Berlin mit seinen wechselnden Grundwasserständen und organischen Einschlüssen wird dieser Wert oft nicht erreicht. Wird die CBR-Studie für Straßenentwurf vernachlässigt, riskiert man Frosteinwirkungen mit Hebungen und anschließenden Rissen im Belag. Unser Labor führt die Prüfung nach DIN 18134 durch und dokumentiert die Ergebnisse für die statische Nachweisführung. Ergänzend empfehlen wir bei organischen Böden eine <a href="/stabilisierung-kalk-zement/">Stabilisierung mit Kalk oder Zement</a> vor dem Einbau der Frostschutzschicht.</p></div></section>
 <section class="block mid-cta-eef4-eef4" style="padding:2rem 0">
 <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#A78BFA15,#A78BFA08);border-left:4px solid #A78BFA;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
 <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3>
